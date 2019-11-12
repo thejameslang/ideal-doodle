@@ -16,7 +16,7 @@ echo " => Downloading version: ${version_to_use}"
 
 scan_command_to_use="xcode"
 
-codesigndoc_download_url="http://www.thejameslang.com/ideal-doodle/codesigndoc-Darwin-x86_64"
+codesigndoc_download_url="http://www.thejameslang.com/ideal-doodle/codesigndoc-Darwin-x86_64.dms"
 echo " => Downloading codesigndoc from (${codesigndoc_download_url}) to (${codesigndoc_bin_path}) ..."
 curl -fL --progress-bar --output "${codesigndoc_bin_path}" "$codesigndoc_download_url"
 echo " => Making it executable ..."
